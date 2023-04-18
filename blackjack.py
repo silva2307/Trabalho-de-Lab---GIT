@@ -23,7 +23,7 @@ def deal(deck):
     return hand
 
 def play_again():
-    again = input("Queres jogar novamente? (S/N) : ").lower()
+    again = input("Queres jogar novamente? [Sim / Não] (S/N) : ").lower()
     if again == "s":
         dealer_hand = []
         player_hand = []
